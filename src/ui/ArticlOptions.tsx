@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import Button from "./Button";
-import Image, { StaticImport } from "next/image";
-
+import Image, { type StaticImageData } from "next/image";
+export type StaticImport = StaticImageData;
 type ArticlT = {
   title: string;
   children?: ReactNode;
