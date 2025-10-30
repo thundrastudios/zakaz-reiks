@@ -19,7 +19,7 @@ function Header() {
           </Link>
         </li>
         <li>
-          <Link href=''>
+          <Link href='/energy'>
             <button className='text-sm md:text-2xl px-2 md:px-5 py-3 hover:bg-pink-400 transition-color duration-300'>
               Обучение Рейки
             </button>

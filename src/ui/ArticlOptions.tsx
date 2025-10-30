@@ -8,6 +8,7 @@ type ArticlT = {
   className?: string;
   img?: string | StaticImport;
   next?: boolean;
+  title_bd?: boolean;
 };
 
 function ArticlOptions({
@@ -15,6 +16,7 @@ function ArticlOptions({
   children,
   className,
   img,
+  title_bd,
   next = true,
 }: ArticlT) {
   const src = [
@@ -27,7 +29,7 @@ function ArticlOptions({
   ];
   return (
     <div className={` mt-40 mx-10 gap-10 ${className} `}>
-      <h1 className='text-3xl p-7'>{title}</h1>
+      <h1 className={`text-3xl p-7 ${title_bd && "text-blue-400"}`}>{title}</h1>
       {img && (
         <Image
           src={img}
