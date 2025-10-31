@@ -2,11 +2,11 @@ import ArticlOptions from "@/ui/ArticlOptions";
 
 function Articles() {
   return (
-    <div className='pt-10 pb-8 grid grid-cols-1 grid-rows-2  gap-8 px-4 md:mx-30'>
+    <div className='pt-10 pb-8 grid grid-cols-1 md:grid-rows-2  md:gap-8 md:px-4 md:mx-30'>
       <ArticlOptions
         img={"/isd.jpg"}
         title='ЧТО ТАКОЕ РЭЙКИ'
-        className='w-[minmax(200px_auto)] py-4  px-6 gap-3 text-center items-center'
+        className='w-[minmax(200px_auto)] py-4  md:px-6 md:gap-3 text-center items-center'
       >
         Рейки – это Система естественного исцеления, которая была заново открыта
         доктором Микао Усуи. Японские слова &quot;Рей&quot; и &quot;Ки&quot;
@@ -23,7 +23,7 @@ function Articles() {
       <ArticlOptions
         img={"/rsd.jpg"}
         title='В школе'
-        className='w-[minmax(200px_auto)] py-4  px-6 gap-3 text-center items-center'
+        className='w-[minmax(200px_auto)] py-4  md:px-6 md:gap-3 text-center items-center'
       >
         К сожалению, многие современные школы больше не считаются физиологически
         «безопасными местами». Это связано с критическим характером совместной
